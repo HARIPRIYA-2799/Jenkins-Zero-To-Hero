@@ -17,6 +17,7 @@ pipeline {
       steps {
         sh 'node --version'
         echo 'second stage changes'
+        input 'enter name'
       }
     }
   }
